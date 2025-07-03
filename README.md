@@ -93,9 +93,9 @@ TR_TORRENT_DIR="/downloads" \
 
 MIT – free to use and modify. Not affiliated with Pushover or Transmission.
 
-## 🛠 Built By
+## 🛠 Made By
 
-[ChilSoft.com](https://chilsoft.com)
+[ChilSoft.com](https://chilsoft.com) with caffeine and questionable commits.
 
 ## ⚠️ Disclaimer
 
