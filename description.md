@@ -1,0 +1,1 @@
+Send Pushover alerts when a torrent finishes downloading in Transmission (Docker on Linux). Lightweight, reliable, and host-based.
