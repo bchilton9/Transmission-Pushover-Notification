@@ -2,6 +2,8 @@
 
 This script sends a Pushover notification whenever a torrent finishes downloading in a Transmission container on a Linux system. It runs on the host and is triggered by Transmission's post-download hook using environment variables provided by the container.
 
+___
+
 ## 📦 Features
 
 - Sends notifications via [Pushover](https://pushover.net)
@@ -9,11 +11,15 @@ This script sends a Pushover notification whenever a torrent finishes downloadin
 - Runs on any Linux system with Docker
 - Simple log output to `/var/log/pushover`
 
+___
+
 ## 🛠️ Requirements
 
 - Linux system running Transmission in Docker
 - Pushover account with a registered application
 - `curl` installed on the host system
+
+___
 
 ## 🧾 Getting Your Pushover Token and User Key
 
@@ -21,6 +27,8 @@ This script sends a Pushover notification whenever a torrent finishes downloadin
 2. **Get your User Key** from the dashboard after logging in.
 3. **Create a new application** at [https://pushover.net/apps/build](https://pushover.net/apps/build)
 4. After creating your app, you’ll receive your **Application Token**.
+
+___
 
 ## ✏️ Add Tokens to the Script
 
@@ -37,6 +45,8 @@ Replace them with your actual keys:
 PUSHOVER_TOKEN='your-app-token-here'
 PUSHOVER_USER_KEY='your-user-key-here'
 ```
+
+___
 
 ## 📂 Installation
 
@@ -79,6 +89,8 @@ environment:
   - TRANSMISSION_SCRIPT_TORRENT_DONE_FILENAME=/scripts/transmission_notify.sh
 ```
 
+___
+
 ## ✅ Test It
 
 You can test the script manually like this:
@@ -89,13 +101,19 @@ TR_TORRENT_DIR="/downloads" \
 /opt/transmission_notify.sh
 ```
 
+___
+
 ## 📜 License
 
 MIT – free to use and modify. Not affiliated with Pushover or Transmission.
 
+___
+
 ## 🛠 Made By
 
 [ChilSoft.com](https://chilsoft.com) with caffeine and questionable commits.
+
+___
 
 ## ⚠️ Disclaimer
 
